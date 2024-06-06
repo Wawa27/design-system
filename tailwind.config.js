@@ -10,6 +10,21 @@ export default {
     "./error.vue",
   ],
   theme: {
+    colors: {
+      'purple': "#9D3FE7",
+      'error': "#D51A52",
+      "black": "#1A141F",
+      "hint-text": "#4B3A5A",
+      "border": "#ABA7AF",
+      "disabled": "#D4D2D5",
+      "spacer": "#D9D1E0",
+      "spacer-light": "#E5E0EB",
+      "light-grey": "#F5F3F7",
+      "white": "#FFFFFF",
+      "attention": "#FF9500",
+      "approval": "#00B998",
+      "link": "#0F0BAB"
+    },
     extend: {
       fontFamily: {
         'sans': ['"Poppins"', ...defaultTheme.fontFamily.sans],
@@ -39,21 +54,6 @@ export default {
           lineHeight: '140%',
           fontWeight: 'normal',
         }],
-      },
-      color: {
-        'purple': "#9D3FE7",
-        'error': "#D51A52",
-        "black": "#1A141F",
-        "hint-text": "#4B3A5A",
-        "border": "#ABA7AF",
-        "disabled": "#D4D2D5",
-        "spacer": "#D9D1E0",
-        "spacer-light": "#E5E0EB",
-        "light-grey": "#F5F3F7",
-        "white": "#FFFFFF",
-        "attention": "#FF9500",
-        "approval": "#00B998",
-        "link": "#0F0BAB"
       },
     },
   },
